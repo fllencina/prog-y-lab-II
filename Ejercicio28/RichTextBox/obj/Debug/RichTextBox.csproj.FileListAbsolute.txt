@@ -1,0 +1,13 @@
+D:\VisualStudio\Ejercicio28\RichTextBox\bin\Debug\RichTextBox.exe.config
+D:\VisualStudio\Ejercicio28\RichTextBox\bin\Debug\RichTextBox.exe
+D:\VisualStudio\Ejercicio28\RichTextBox\bin\Debug\RichTextBox.pdb
+D:\VisualStudio\Ejercicio28\RichTextBox\bin\Debug\Ejercicio28.dll
+D:\VisualStudio\Ejercicio28\RichTextBox\bin\Debug\Ejercicio28.pdb
+D:\VisualStudio\Ejercicio28\RichTextBox\obj\Debug\RichTextBox.csprojAssemblyReference.cache
+D:\VisualStudio\Ejercicio28\RichTextBox\obj\Debug\RichTextBox.Contador_de_Palabras.resources
+D:\VisualStudio\Ejercicio28\RichTextBox\obj\Debug\RichTextBox.Properties.Resources.resources
+D:\VisualStudio\Ejercicio28\RichTextBox\obj\Debug\RichTextBox.csproj.GenerateResource.cache
+D:\VisualStudio\Ejercicio28\RichTextBox\obj\Debug\RichTextBox.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Ejercicio28\RichTextBox\obj\Debug\RichTextBox.csproj.CopyComplete
+D:\VisualStudio\Ejercicio28\RichTextBox\obj\Debug\RichTextBox.exe
+D:\VisualStudio\Ejercicio28\RichTextBox\obj\Debug\RichTextBox.pdb

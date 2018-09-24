@@ -1,0 +1,6 @@
+D:\VisualStudio\Ejercicio28\Ejercicio28\bin\Debug\Ejercicio28.dll
+D:\VisualStudio\Ejercicio28\Ejercicio28\bin\Debug\Ejercicio28.pdb
+D:\VisualStudio\Ejercicio28\Ejercicio28\obj\Debug\Ejercicio28.csprojAssemblyReference.cache
+D:\VisualStudio\Ejercicio28\Ejercicio28\obj\Debug\Ejercicio28.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Ejercicio28\Ejercicio28\obj\Debug\Ejercicio28.dll
+D:\VisualStudio\Ejercicio28\Ejercicio28\obj\Debug\Ejercicio28.pdb
