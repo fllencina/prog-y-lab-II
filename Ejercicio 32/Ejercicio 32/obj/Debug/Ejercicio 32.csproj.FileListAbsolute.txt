@@ -1,0 +1,7 @@
+C:\Users\fernanda\source\repos\Ejercicio 32\Ejercicio 32\bin\Debug\Ejercicio 32.exe.config
+C:\Users\fernanda\source\repos\Ejercicio 32\Ejercicio 32\bin\Debug\Ejercicio 32.exe
+C:\Users\fernanda\source\repos\Ejercicio 32\Ejercicio 32\bin\Debug\Ejercicio 32.pdb
+C:\Users\fernanda\source\repos\Ejercicio 32\Ejercicio 32\obj\Debug\Ejercicio 32.csprojAssemblyReference.cache
+C:\Users\fernanda\source\repos\Ejercicio 32\Ejercicio 32\obj\Debug\Ejercicio 32.csproj.CoreCompileInputs.cache
+C:\Users\fernanda\source\repos\Ejercicio 32\Ejercicio 32\obj\Debug\Ejercicio 32.exe
+C:\Users\fernanda\source\repos\Ejercicio 32\Ejercicio 32\obj\Debug\Ejercicio 32.pdb
