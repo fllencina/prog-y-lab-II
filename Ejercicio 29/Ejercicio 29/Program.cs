@@ -19,17 +19,17 @@ namespace Ejercicio_29
             Console.WriteLine(j2.MostrarDatos());
             Console.WriteLine(j3.MostrarDatos());
             Console.ReadKey();
-
-            bool retrno = nuevoEquipo + j1;
+            
+            bool retorno = (nuevoEquipo + j1);
+            retorno = nuevoEquipo + j2;
+            retorno = nuevoEquipo + j3;
+            Console.WriteLine("----------------------------------------------------");
 
             foreach (Jugador j in nuevoEquipo.jugadores)
             {
-                Console.WriteLine(j.MostrarDatos());
+                Console.WriteLine(j.MostrarDatos());   
             }
-
             Console.ReadKey();
-
-
         }
     }
 }

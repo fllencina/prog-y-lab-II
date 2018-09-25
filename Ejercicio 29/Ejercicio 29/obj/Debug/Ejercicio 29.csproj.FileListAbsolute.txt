@@ -5,3 +5,10 @@ C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Ejercicios\Ejercicio 29\E
 C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Ejercicios\Ejercicio 29\Ejercicio 29\obj\Debug\Ejercicio 29.csproj.CoreCompileInputs.cache
 C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Ejercicios\Ejercicio 29\Ejercicio 29\obj\Debug\Ejercicio 29.exe
 C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Ejercicios\Ejercicio 29\Ejercicio 29\obj\Debug\Ejercicio 29.pdb
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 29\Ejercicio 29\bin\Debug\Ejercicio 29.exe.config
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 29\Ejercicio 29\bin\Debug\Ejercicio 29.exe
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 29\Ejercicio 29\bin\Debug\Ejercicio 29.pdb
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 29\Ejercicio 29\obj\Debug\Ejercicio 29.csprojAssemblyReference.cache
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 29\Ejercicio 29\obj\Debug\Ejercicio 29.csproj.CoreCompileInputs.cache
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 29\Ejercicio 29\obj\Debug\Ejercicio 29.exe
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 29\Ejercicio 29\obj\Debug\Ejercicio 29.pdb
