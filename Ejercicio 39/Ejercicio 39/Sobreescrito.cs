@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Ejercicio_39
 {
-     class Sobreescrito
-    {
+    public  abstract class Sobreescrito
+     {
         protected string miAtributo;
         //constructor
         public Sobreescrito()
@@ -15,7 +15,10 @@ namespace Ejercicio_39
             this.miAtributo = "Probar abstractos";
         }
         //propiedad
-        public abstract string MiPropiedad(); 
+        public abstract string MiPropiedad();
+
+        //metodos
+        public abstract string MiMetodo();
 
         //override
         public override string ToString()

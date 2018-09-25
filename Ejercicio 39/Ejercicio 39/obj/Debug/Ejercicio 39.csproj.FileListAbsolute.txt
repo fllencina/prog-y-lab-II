@@ -1,0 +1,7 @@
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 39\Ejercicio 39\obj\Debug\Ejercicio 39.csprojAssemblyReference.cache
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 39\Ejercicio 39\obj\Debug\Ejercicio 39.csproj.CoreCompileInputs.cache
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 39\Ejercicio 39\bin\Debug\Ejercicio 39.exe.config
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 39\Ejercicio 39\bin\Debug\Ejercicio 39.exe
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 39\Ejercicio 39\bin\Debug\Ejercicio 39.pdb
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 39\Ejercicio 39\obj\Debug\Ejercicio 39.exe
+C:\Users\fernanda\Desktop\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 39\Ejercicio 39\obj\Debug\Ejercicio 39.pdb
