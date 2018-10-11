@@ -1,0 +1,6 @@
+D:\VisualStudio\fernanda\Lencina.Fernanda\Lencina.Fernanda\bin\Debug\Lencina.Fernanda.dll
+D:\VisualStudio\fernanda\Lencina.Fernanda\Lencina.Fernanda\bin\Debug\Lencina.Fernanda.pdb
+D:\VisualStudio\fernanda\Lencina.Fernanda\Lencina.Fernanda\obj\Debug\Entidades.csprojAssemblyReference.cache
+D:\VisualStudio\fernanda\Lencina.Fernanda\Lencina.Fernanda\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+D:\VisualStudio\fernanda\Lencina.Fernanda\Lencina.Fernanda\obj\Debug\Lencina.Fernanda.dll
+D:\VisualStudio\fernanda\Lencina.Fernanda\Lencina.Fernanda\obj\Debug\Lencina.Fernanda.pdb
