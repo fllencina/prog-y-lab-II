@@ -15,7 +15,7 @@ namespace Ejercicio_29
         //constructor
         private Equipo()
         {
-            this.jugadores = new List<Jugador>();
+            List<Jugador> jugadores = new List<Jugador>();
         }
         public Equipo(short cantidad, string nombre) : this()
         {
@@ -25,23 +25,22 @@ namespace Ejercicio_29
         //sobrecarga
         public static bool operator +(Equipo e, Jugador j)
         {
-            if (e.jugadores.Count == 0)
+            e = new Equipo();
+
+            foreach (Jugador k in e.jugadores)
             {
-                e.jugadores.Add(j);
-            }
-            else
-            {
-                foreach (Jugador k in e.jugadores)
+                if (k == j)
                 {
-                    if (k == j)
-                    {
-                        return false;
-                    }
-                    e.jugadores.Add(j);
                     return true;
                 }
+
+                e.jugadores.Add(j);
+                return true;
+
             }
+
             return false;
         }
+
     }
 }

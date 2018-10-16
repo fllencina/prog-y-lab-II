@@ -1,0 +1,7 @@
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Ejercicios\ejercicio 17\ejercicio 17\obj\Debug\ejercicio 17.csprojAssemblyReference.cache
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Ejercicios\ejercicio 17\ejercicio 17\obj\Debug\ejercicio 17.csproj.CoreCompileInputs.cache
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Ejercicios\ejercicio 17\ejercicio 17\bin\Debug\ejercicio 17.exe.config
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Ejercicios\ejercicio 17\ejercicio 17\bin\Debug\ejercicio 17.exe
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Ejercicios\ejercicio 17\ejercicio 17\bin\Debug\ejercicio 17.pdb
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Ejercicios\ejercicio 17\ejercicio 17\obj\Debug\ejercicio 17.exe
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Ejercicios\ejercicio 17\ejercicio 17\obj\Debug\ejercicio 17.pdb

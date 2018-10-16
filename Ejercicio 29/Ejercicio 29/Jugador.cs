@@ -8,19 +8,19 @@ namespace Ejercicio_29
 {
     public class Jugador
     {
-        public  long dni;
+        public long dni;
         public string nombre;
         public int partidosJugados;
         public float promedioGoles;
         public int totalGoles;
         //constructores
-        public Jugador()
+        private Jugador()
         {
             this.partidosJugados = 0;
             this.promedioGoles = 0;
             this.totalGoles = 0;
         }
-        private Jugador(int dni, string nombre):this()
+        public Jugador(int dni, string nombre):this()
         {
             this.dni = dni;
             this.nombre = nombre;
