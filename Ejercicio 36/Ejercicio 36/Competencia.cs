@@ -6,28 +6,77 @@ using System.Threading.Tasks;
 
 namespace Ejercicio_36
 {
+    public enum TipoCompetencia
+    {
+        F1,
+        MotoCross
+    }
     public class Competencia
     {
         short cantidadCompetidores;
         short cantidadVueltas;
-        List<AutoF1> competidores;
+        List<VehiculoDeCarrera> competidores;
+        TipoCompetencia tipo;
 
         #region "constructores"
         private Competencia()
         {
-            competidores = new List<AutoF1>();
+            competidores = new List<VehiculoDeCarrera>();
         }
-        public Competencia(short cantidadVueltas,short cantidadCompetidores):this()
+        public Competencia(short cantidadVueltas,short cantidadCompetidores,TipoCompetencia tipo):this()
         {
             this.cantidadVueltas = cantidadVueltas;
             this.cantidadCompetidores = cantidadCompetidores;
+            this.tipo = tipo;
+        }
+        #endregion
+        #region "Propiedades"
+        public short CantidadCompetidores
+        {
+            get
+            {
+                return this.cantidadCompetidores;
+            }
+            set
+            {
+                this.cantidadCompetidores = value;
+            }
+        }
+        public short CantidadVueltas
+        {
+            get
+            {
+                return this.cantidadVueltas;
+            }
+            set
+            {
+                this.cantidadVueltas = value;
+            }
+        }
+        public VehiculoDeCarrera this[int i]
+        {
+            get
+            {
+                return this[i];
+            }
+        }
+        public TipoCompetencia Tipo
+        {
+            get
+            {
+                return this.tipo;
+            }
+            set
+            {
+                this.tipo = value;
+            }
         }
         #endregion
         #region "Metodos"
         public string MostrarDatos()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("Cantidad de competidores: {0}\nCantidad de vueltas: {1}",this.cantidadCompetidores,this.cantidadVueltas);
+            sb.AppendFormat("Tipo de competencia: {0}Cantidad de competidores: {1}\nCantidad de vueltas: {2}",Tipo, this.cantidadCompetidores,this.cantidadVueltas);
             foreach(AutoF1 a in this.competidores)
             {
                 sb.AppendFormat("\nAutoF1: {0}", a.MostrarDatos());
@@ -36,18 +85,21 @@ namespace Ejercicio_36
         }
         #endregion
         #region "Sobrecarga"
-        public static bool operator==(Competencia c, AutoF1 a)
+        public static bool operator==(Competencia c, VehiculoDeCarrera a)
         {
-            foreach(AutoF1 b in c.competidores)
+            foreach(VehiculoDeCarrera b in c.competidores)
             {
-                if(b==a)
+                if (a is AutoF1)
                 {
-                    return true;
+                    if (b == a)
+                    {
+                        return true;
+                    }
                 }
             }
             return false;
         }
-        public static bool operator !=(Competencia c, AutoF1 a)
+        public static bool operator !=(Competencia c, VehiculoDeCarrera a)
         {
             return!(c == a);        
         }

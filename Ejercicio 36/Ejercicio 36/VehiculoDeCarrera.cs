@@ -24,7 +24,7 @@ namespace Ejercicio_36
             VueltasRestantes=0;
         }
         #endregion
-
+        #region "Propiedades"
         public short Numero
         {
             get
@@ -80,14 +80,15 @@ namespace Ejercicio_36
                 this.vueltasRestantes = value;
             }
         }
-        
+        #endregion
+        #region "Metodos"
         public string MostrarDatos()
         {
             StringBuilder sb = new StringBuilder();
             sb.AppendFormat("Numero: {0}\nEscuderia: {1}\nCantidad de combustible: {2}\nVueltas restantes: {3}\nEn competencia: {4}\n",Numero, Escuderia, CantidadCombustible, VueltasRestantes, EnCompetencia);
             return sb.ToString();
         }
+        #endregion
 
-        
     }
 }

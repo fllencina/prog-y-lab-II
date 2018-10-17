@@ -19,18 +19,31 @@ namespace Ejercicio_36
 
         }
         #endregion
-
+        #region "Propiedades"
+        public short CaballosDeFuerza
+        {
+            get
+            {
+                return this.caballosDeFuerza;
+            }
+            set
+            {
+                this.caballosDeFuerza = value;
+            }
+        }
+        #endregion
+        #region "Metodo"
         public new string MostrarDatos()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("Numero: {0}\nEscuderia: {1}\nCantidad de combustible: {2}\nVueltas restantes: {3}\nEn competencia: {4}\n", this.numero, this.escuderia, this.cantidadCombustible, this.vueltasRestantes, this.enCompetencia);
+            sb.AppendFormat(base.MostrarDatos());
             return sb.ToString();
         }
-        
+        #endregion
         #region "sobrecargas"
         public static bool operator ==(AutoF1 a1,AutoF1 a2)
         {
-            if(a1.numero==a2.numero && a1.escuderia == a2.escuderia)
+            if(a1== a2 && a1.caballosDeFuerza== a2.caballosDeFuerza)
             {
                 return true;
             }
