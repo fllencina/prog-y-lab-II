@@ -44,7 +44,7 @@ namespace Ejercicio_36
         #region "sobrecargas"
         public static bool operator ==(MotoCross a1, MotoCross a2)
         {
-            if (a1 == a2 && a1.cilindrada == a2.cilindrada)
+            if (a1.cilindrada == a2.cilindrada)
             {
                 return true;
             }

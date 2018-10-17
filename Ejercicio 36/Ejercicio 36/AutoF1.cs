@@ -43,7 +43,7 @@ namespace Ejercicio_36
         #region "sobrecargas"
         public static bool operator ==(AutoF1 a1,AutoF1 a2)
         {
-            if(a1== a2 && a1.caballosDeFuerza== a2.caballosDeFuerza)
+            if(a1.caballosDeFuerza== a2.caballosDeFuerza)
             {
                 return true;
             }

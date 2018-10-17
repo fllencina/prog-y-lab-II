@@ -23,7 +23,7 @@ namespace Ejercicio_36
         {
             competidores = new List<VehiculoDeCarrera>();
         }
-        public Competencia(short cantidadVueltas,short cantidadCompetidores,TipoCompetencia tipo):this()
+        public Competencia(short cantidadVueltas, short cantidadCompetidores, TipoCompetencia tipo) : this()
         {
             this.cantidadVueltas = cantidadVueltas;
             this.cantidadCompetidores = cantidadCompetidores;
@@ -57,7 +57,11 @@ namespace Ejercicio_36
         {
             get
             {
-                return this[i];
+                if (i < this.competidores.Count)
+                {
+                    return this.competidores[i];
+                }
+                return null;
             }
         }
         public TipoCompetencia Tipo
@@ -76,8 +80,8 @@ namespace Ejercicio_36
         public string MostrarDatos()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("Tipo de competencia: {0}Cantidad de competidores: {1}\nCantidad de vueltas: {2}",Tipo, this.cantidadCompetidores,this.cantidadVueltas);
-            foreach(AutoF1 a in this.competidores)
+            sb.AppendFormat("Tipo de competencia: {0}Cantidad de competidores: {1}\nCantidad de vueltas: {2}", Tipo, this.cantidadCompetidores, this.cantidadVueltas);
+            foreach (AutoF1 a in this.competidores)
             {
                 sb.AppendFormat("\nAutoF1: {0}", a.MostrarDatos());
             }
@@ -85,45 +89,54 @@ namespace Ejercicio_36
         }
         #endregion
         #region "Sobrecarga"
-        public static bool operator==(Competencia c, VehiculoDeCarrera a)
+        public static bool operator ==(Competencia c, VehiculoDeCarrera a)
         {
-            foreach(VehiculoDeCarrera b in c.competidores)
+            foreach (VehiculoDeCarrera b in c.competidores)
             {
-                if (a is AutoF1)
+                switch (c.tipo)
                 {
-                    if (b == a)
-                    {
-                        return true;
-                    }
-                }
+                    case TipoCompetencia.F1:
+                        if (b is AutoF1)
+                        {
+                            if((AutoF1)a==(AutoF1)b)
+                            return true;
+                        }
+                        break;
+                    case TipoCompetencia.MotoCross:
+                        if (b is MotoCross)
+                        {
+                            if ((MotoCross)a == (MotoCross)b)
+                                return true;
+                        }
+                        break;
+                }               
             }
             return false;
         }
         public static bool operator !=(Competencia c, VehiculoDeCarrera a)
         {
-            return!(c == a);        
+            return !(c == a);
         }
-        public static bool operator +(Competencia c, AutoF1 a)
+        public static bool operator +(Competencia c, VehiculoDeCarrera a)
         {
             Random random = new Random();
-            
-            if(c.cantidadCompetidores>c.competidores.Count)
+
+            if (c.cantidadCompetidores > c.competidores.Count)
             {
-                if(!(c==a))
+                if (c != a)
                 {
                     a.EnCompetencia = true;
-                    a.VueltasRestantes=(c.cantidadVueltas);
-                    a.CantidadCombustible=((short)random.Next(15, 100));
-              
+                    a.VueltasRestantes = (c.cantidadVueltas);
+                    a.CantidadCombustible = ((short)random.Next(15, 100));
                     c.competidores.Add(a);
                     return true;
                 }
             }
             return false;
         }
-        public static bool operator -(Competencia c, AutoF1 a)
+        public static bool operator -(Competencia c, VehiculoDeCarrera a)
         {
-            if(c==a)
+            if (c == a)
             {
                 c.competidores.Remove(a);
                 return true;
