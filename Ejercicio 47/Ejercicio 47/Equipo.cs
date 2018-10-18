@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Ejercicio_47
 {
-    abstract class Equipo
+   public  abstract class Equipo
     {
-        protected string nombre;
+        public string nombre;
         protected DateTime fechaCreacion;
 
         public Equipo(string nombre,DateTime fecha)

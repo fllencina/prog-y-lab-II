@@ -1,0 +1,10 @@
+C:\Users\fernanda\Downloads\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 47\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\fernanda\Downloads\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 47\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\fernanda\Downloads\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 47\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\fernanda\Downloads\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 47\ConsoleApp1\bin\Debug\Ejercicio 47.dll
+C:\Users\fernanda\Downloads\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 47\ConsoleApp1\bin\Debug\Ejercicio 47.pdb
+C:\Users\fernanda\Downloads\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 47\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\fernanda\Downloads\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 47\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\fernanda\Downloads\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 47\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\Users\fernanda\Downloads\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 47\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\fernanda\Downloads\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 47\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
