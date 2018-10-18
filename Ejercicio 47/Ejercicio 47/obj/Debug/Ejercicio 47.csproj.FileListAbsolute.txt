@@ -4,3 +4,9 @@ C:\Users\fernanda\Downloads\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejerci
 C:\Users\fernanda\Downloads\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 47\Ejercicio 47\obj\Debug\Ejercicio 47.csproj.CoreCompileInputs.cache
 C:\Users\fernanda\Downloads\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 47\Ejercicio 47\obj\Debug\Ejercicio 47.dll
 C:\Users\fernanda\Downloads\prog-y-lab-II-master (1)\prog-y-lab-II-master\Ejercicio 47\Ejercicio 47\obj\Debug\Ejercicio 47.pdb
+D:\VisualStudio\fernanda\Ejercicio 47\Ejercicio 47\bin\Debug\Ejercicio 47.dll
+D:\VisualStudio\fernanda\Ejercicio 47\Ejercicio 47\bin\Debug\Ejercicio 47.pdb
+D:\VisualStudio\fernanda\Ejercicio 47\Ejercicio 47\obj\Debug\Ejercicio 47.csprojAssemblyReference.cache
+D:\VisualStudio\fernanda\Ejercicio 47\Ejercicio 47\obj\Debug\Ejercicio 47.csproj.CoreCompileInputs.cache
+D:\VisualStudio\fernanda\Ejercicio 47\Ejercicio 47\obj\Debug\Ejercicio 47.dll
+D:\VisualStudio\fernanda\Ejercicio 47\Ejercicio 47\obj\Debug\Ejercicio 47.pdb

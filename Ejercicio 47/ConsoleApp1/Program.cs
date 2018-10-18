@@ -12,8 +12,8 @@ namespace Ejercicio_47
         {
             DateTime fechaBasquet = new DateTime(2018,10,20);
             DateTime fechaFutbol = new DateTime(2018, 10, 15);
-            Torneo<> TorneoBasquet = new Torneo<>("Torneo de basquet");
-            Torneo<> TorneoFutbol = new Torneo<>("Torneo de Futbol");
+            Torneo<EquipoBasquet> TorneoBasquet = new Torneo<EquipoBasquet>("Torneo de basquet");
+            Torneo<EquipoFutbol> TorneoFutbol = new Torneo<EquipoFutbol>("Torneo de Futbol");
 
             EquipoBasquet basquet = new EquipoBasquet("Basquet1", fechaBasquet);
             EquipoFutbol futbol = new EquipoFutbol("Futbol1", fechaFutbol);
@@ -27,24 +27,24 @@ namespace Ejercicio_47
             TorneoBasquet += basquet3;
             TorneoBasquet += basquet;
 
-            TorneoBasquet += futbol;
-            TorneoBasquet += futbol2;
-            TorneoBasquet += futbol3;
-            TorneoBasquet += futbol;
+            //TorneoBasquet += futbol;
+            //TorneoBasquet += futbol2;
+            //TorneoBasquet += futbol3;
+            //TorneoBasquet += futbol;
 
-            TorneoFutbol += basquet;
-            TorneoFutbol += basquet2;
-            TorneoFutbol += basquet3;
-            TorneoFutbol += basquet3;
+            //TorneoFutbol += basquet;
+            //TorneoFutbol += basquet2;
+            //TorneoFutbol += basquet3;
+            //TorneoFutbol += basquet3;
 
             TorneoFutbol += futbol;
             TorneoFutbol += futbol2;
             TorneoFutbol += futbol3;
             TorneoFutbol += futbol3;
 
-            TorneoBasquet.Mostrar();
+            Console.WriteLine(TorneoBasquet.Mostrar());
             Console.ReadKey();
-            TorneoFutbol.Mostrar();
+            Console.WriteLine(TorneoFutbol.Mostrar());
             Console.ReadKey();
 
             

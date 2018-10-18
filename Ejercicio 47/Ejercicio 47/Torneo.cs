@@ -34,7 +34,7 @@ namespace Ejercicio_47
         public static Torneo<T> operator +(Torneo<T> a, T e)
         {
             if(a!=e)
-            {
+            {        
                 a.equipos.Add(e);
             }
             return a;
