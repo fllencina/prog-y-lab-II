@@ -1,0 +1,7 @@
+D:\VisualStudio\fernanda\ejercicio 42\ejercicio 42\bin\Debug\ejercicio 42.exe.config
+D:\VisualStudio\fernanda\ejercicio 42\ejercicio 42\bin\Debug\ejercicio 42.exe
+D:\VisualStudio\fernanda\ejercicio 42\ejercicio 42\bin\Debug\ejercicio 42.pdb
+D:\VisualStudio\fernanda\ejercicio 42\ejercicio 42\obj\Debug\ejercicio 42.csprojAssemblyReference.cache
+D:\VisualStudio\fernanda\ejercicio 42\ejercicio 42\obj\Debug\ejercicio 42.csproj.CoreCompileInputs.cache
+D:\VisualStudio\fernanda\ejercicio 42\ejercicio 42\obj\Debug\ejercicio 42.exe
+D:\VisualStudio\fernanda\ejercicio 42\ejercicio 42\obj\Debug\ejercicio 42.pdb
