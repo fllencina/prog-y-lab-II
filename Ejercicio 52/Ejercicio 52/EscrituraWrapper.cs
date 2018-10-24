@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace Ejercicio_52
 {
-    class EscrituraWrapper
+    public class EscrituraWrapper
     {
+       public  ConsoleColor color;
+       public  string texto;
+
+        public EscrituraWrapper(ConsoleColor color, string texto)
+        {
+            this.color = color;
+            this.texto = texto;
+        }
     }
 }

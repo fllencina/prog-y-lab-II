@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ejercicio_52
 {
-    class Boligrafo
+    public class Boligrafo: IAcciones
     {
         ConsoleColor colorTinta;
         float tinta;
@@ -22,7 +22,7 @@ namespace Ejercicio_52
                 this.colorTinta = value;
             }
         }
-        public float Tinta
+        public float UnidadesDeEscritura
         {
             get
             {
@@ -33,9 +33,32 @@ namespace Ejercicio_52
                 this.tinta = value;
             }
         }
+        public Boligrafo(int unidades,ConsoleColor color)
+        {
+            Color = color;
+           UnidadesDeEscritura = tinta;
+        }
         public bool Recargar(int unidades)
         {
-            
+            if(unidades>0)
+            {
+               UnidadesDeEscritura = unidades;
+                return true;
+            }
+            return false;
+        }
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendFormat("Color de tinta: {1}\nNivel de tinta: {0}", UnidadesDeEscritura, Color);
+            return sb.ToString();
+        }
+        public EscrituraWrapper Escribir(string texto)
+        {
+            int length = texto.Length;
+            UnidadesDeEscritura = UnidadesDeEscritura - 0.3f * length;
+            EscrituraWrapper escrito = new EscrituraWrapper(Color,texto);
+            return escrito;
         }
     }
 }

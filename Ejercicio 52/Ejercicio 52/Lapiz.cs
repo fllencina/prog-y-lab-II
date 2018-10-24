@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Ejercicio_52
 {
-    class Lapiz
+    public class Lapiz: IAcciones
     {
         float tamanioMina;
 
@@ -40,6 +40,18 @@ namespace Ejercicio_52
         {
             throw new NotImplementedException();
         }
-
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendFormat("Color de tinta: {1}\nNivel de tinta: {0}", UnidadesDeEscritura,Color);
+            return sb.ToString();
+        }
+        public EscrituraWrapper Escribir(string texto)
+        {
+            int length = texto.Length;
+            UnidadesDeEscritura = UnidadesDeEscritura - 0.1f * length;
+            EscrituraWrapper escrito = new EscrituraWrapper(Color, texto);
+            return escrito;
+        }
     }
 }
