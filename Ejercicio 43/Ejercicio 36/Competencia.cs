@@ -98,15 +98,29 @@ namespace Ejercicio_36
                     case TipoCompetencia.F1:
                         if (b is AutoF1)
                         {
-                            if((AutoF1)a==(AutoF1)b)
-                            return true;
+                            try
+                            {
+                                if ((AutoF1)a == (AutoF1)b)
+                                    return true;
+                            }
+                            catch
+                            {
+                                throw  new CompetenciaNoDisponibleException("El vehículo no corresponde a la competencia", "Competencia", "==");
+                            }
                         }
                         break;
                     case TipoCompetencia.MotoCross:
                         if (b is MotoCross)
                         {
-                            if ((MotoCross)a == (MotoCross)b)
-                                return true;
+                            try
+                            {
+                                if ((MotoCross)a == (MotoCross)b)
+                                    return true;
+                            }
+                            catch
+                            {
+                                throw new CompetenciaNoDisponibleException("El vehículo no corresponde a la competencia", "Competencia", "==");
+                            }
                         }
                         break;
                 }               
@@ -123,13 +137,20 @@ namespace Ejercicio_36
 
             if (c.cantidadCompetidores > c.competidores.Count)
             {
-                if (c != a)
+                try
                 {
-                    a.EnCompetencia = true;
-                    a.VueltasRestantes = (c.cantidadVueltas);
-                    a.CantidadCombustible = ((short)random.Next(15, 100));
-                    c.competidores.Add(a);
-                    return true;
+                    if (!(c == a))
+                    {
+                        a.EnCompetencia = true;
+                        a.VueltasRestantes = (c.cantidadVueltas);
+                        a.CantidadCombustible = ((short)random.Next(15, 100));
+                        c.competidores.Add(a);
+                        return true;
+                    }
+                }
+                catch (CompetenciaNoDisponibleException e)
+                {
+                    throw new CompetenciaNoDisponibleException("Competencia incorrecta", "Competencia", "+", e.InnerException);
                 }
             }
             return false;

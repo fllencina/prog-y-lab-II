@@ -33,6 +33,7 @@ namespace Ejercicio_36
             }
         }
         #endregion
+
         #region "Metodo"
         public new string MostrarDatos()
         {
@@ -41,6 +42,7 @@ namespace Ejercicio_36
             return sb.ToString();
         }
         #endregion
+
         #region "sobrecargas"
         public static bool operator ==(MotoCross a1, MotoCross a2)
         {
