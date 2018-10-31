@@ -4,3 +4,9 @@ D:\VisualStudio\fernanda\Ejercicio 52\Ejercicio 52\obj\Debug\Ejercicio 52.csproj
 D:\VisualStudio\fernanda\Ejercicio 52\Ejercicio 52\obj\Debug\Ejercicio 52.csproj.CoreCompileInputs.cache
 D:\VisualStudio\fernanda\Ejercicio 52\Ejercicio 52\obj\Debug\Ejercicio 52.dll
 D:\VisualStudio\fernanda\Ejercicio 52\Ejercicio 52\obj\Debug\Ejercicio 52.pdb
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 52\Ejercicio 52\bin\Debug\Ejercicio 52.dll
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 52\Ejercicio 52\bin\Debug\Ejercicio 52.pdb
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 52\Ejercicio 52\obj\Debug\Ejercicio 52.csprojAssemblyReference.cache
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 52\Ejercicio 52\obj\Debug\Ejercicio 52.csproj.CoreCompileInputs.cache
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 52\Ejercicio 52\obj\Debug\Ejercicio 52.dll
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 52\Ejercicio 52\obj\Debug\Ejercicio 52.pdb

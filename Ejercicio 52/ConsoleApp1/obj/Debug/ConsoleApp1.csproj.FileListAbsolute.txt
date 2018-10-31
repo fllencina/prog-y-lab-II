@@ -8,3 +8,13 @@ D:\VisualStudio\fernanda\Ejercicio 52\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.C
 D:\VisualStudio\fernanda\Ejercicio 52\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
 D:\VisualStudio\fernanda\Ejercicio 52\ConsoleApp1\obj\Debug\ConsoleApp1.exe
 D:\VisualStudio\fernanda\Ejercicio 52\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 52\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 52\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 52\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 52\ConsoleApp1\bin\Debug\Ejercicio 52.dll
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 52\ConsoleApp1\bin\Debug\Ejercicio 52.pdb
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 52\ConsoleApp1\obj\Debug\ConsoleApp1.csprojAssemblyReference.cache
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 52\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CoreCompileInputs.cache
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 52\ConsoleApp1\obj\Debug\ConsoleApp1.csproj.CopyComplete
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 52\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 52\ConsoleApp1\obj\Debug\ConsoleApp1.pdb

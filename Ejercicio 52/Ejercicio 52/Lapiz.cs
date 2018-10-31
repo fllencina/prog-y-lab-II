@@ -14,7 +14,7 @@ namespace Ejercicio_52
         {
             get
             {
-                return this.Color;
+                return ConsoleColor.Gray;
             }
             set
             {
@@ -43,7 +43,7 @@ namespace Ejercicio_52
         public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("Color de tinta: {1}\nNivel de tinta: {0}", UnidadesDeEscritura,Color);
+            sb.AppendFormat("Color de mina: {1}\nTamaño Mina: {0}", UnidadesDeEscritura,Color);
             return sb.ToString();
         }
         public EscrituraWrapper Escribir(string texto)

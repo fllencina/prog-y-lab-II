@@ -36,7 +36,7 @@ namespace Ejercicio_52
         public Boligrafo(int unidades,ConsoleColor color)
         {
             Color = color;
-           UnidadesDeEscritura = tinta;
+           UnidadesDeEscritura = unidades;
         }
         public bool Recargar(int unidades)
         {
