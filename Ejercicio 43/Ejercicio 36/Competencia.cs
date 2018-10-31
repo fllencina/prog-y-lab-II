@@ -6,13 +6,14 @@ using System.Threading.Tasks;
 
 namespace Ejercicio_36
 {
-    public enum TipoCompetencia
-    {
-        F1,
-        MotoCross
-    }
+    
     public class Competencia
     {
+        public enum TipoCompetencia
+        {
+            F1,
+            MotoCross
+        }
         short cantidadCompetidores;
         short cantidadVueltas;
         List<VehiculoDeCarrera> competidores;
@@ -80,11 +81,12 @@ namespace Ejercicio_36
         public string MostrarDatos()
         {
             StringBuilder sb = new StringBuilder();
-            sb.AppendFormat("Tipo de competencia: {0}Cantidad de competidores: {1}\nCantidad de vueltas: {2}", Tipo, this.cantidadCompetidores, this.cantidadVueltas);
-            foreach (AutoF1 a in this.competidores)
+            sb.AppendFormat("Tipo de competencia: {0}\nCantidad de competidores: {1}\nCantidad de vueltas: {2}\n", Tipo, this.cantidadCompetidores, this.cantidadVueltas);
+            for (int i = 0; i < this.competidores.Count; i++)
             {
-                sb.AppendFormat("\nAutoF1: {0}", a.MostrarDatos());
+                sb.Append(this.competidores[i].MostrarDatos());
             }
+
             return sb.ToString();
         }
         #endregion

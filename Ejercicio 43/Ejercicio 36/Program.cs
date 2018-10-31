@@ -10,26 +10,39 @@ namespace Ejercicio_36
     {
         static void Main(string[] args)
         {
-            Competencia com = new Competencia(5, 10, TipoCompetencia.MotoCross);
-            AutoF1 a = new AutoF1(0, "lala");
-            AutoF1 b = new AutoF1(1, "lala");
-            AutoF1 c = new AutoF1(2, "lala");
-            AutoF1 d = new AutoF1(4, "lala");
-            AutoF1 e = new AutoF1(4, "lala");
-            AutoF1 f = new AutoF1(5, "lala");
-            AutoF1 g = new AutoF1(6, "lala");
-            MotoCross ma = new MotoCross(1, "esa");
+            Competencia c1 = new Competencia(15, 3, Competencia.TipoCompetencia.MotoCross);
+            AutoF1 a1 = new AutoF1(1, "Mercedes");
+            AutoF1 a2 = new AutoF1(2, "Ferrari");
+            AutoF1 a3 = new AutoF1(3, "RedBull");
+            MotoCross m1 = new MotoCross(4, "escuderia");
 
             try
             {
-                
+                if (c1 + m1)
+                {
+                    Console.WriteLine(c1.MostrarDatos());
+                }
             }
-            catch (CompetenciaNoDisponibleException ex)
+            catch (CompetenciaNoDisponibleException e)
             {
-                Console.WriteLine(ex.ToString());
+                Console.WriteLine(e.ToString());
             }
-            //Console.WriteLine(com.MostrarDatos());
+
+
+            try
+            {
+                if (c1 + a2)
+                {
+                    Console.WriteLine(c1.MostrarDatos());
+                }
+            }
+            catch (CompetenciaNoDisponibleException e)
+            {
+                Console.WriteLine(e.ToString());
+            }
+
             Console.ReadKey();
+
         }
     }
 }
