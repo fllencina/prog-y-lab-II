@@ -1,0 +1,20 @@
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 56\Ejercicio 56\bin\Debug\Ejercicio 56.exe.config
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 56\Ejercicio 56\bin\Debug\Ejercicio 56.exe
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 56\Ejercicio 56\bin\Debug\Ejercicio 56.pdb
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 56\Ejercicio 56\obj\Debug\Ejercicio 56.csprojAssemblyReference.cache
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 56\Ejercicio 56\obj\Debug\Ejercicio_56.Form1.resources
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 56\Ejercicio 56\obj\Debug\Ejercicio_56.Properties.Resources.resources
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 56\Ejercicio 56\obj\Debug\Ejercicio 56.csproj.GenerateResource.cache
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 56\Ejercicio 56\obj\Debug\Ejercicio 56.csproj.CoreCompileInputs.cache
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 56\Ejercicio 56\obj\Debug\Ejercicio 56.exe
+C:\Users\Fernanda\Desktop\Prog y Lab 2 Federico Davila\Mi Git actual\Ejercicio 56\Ejercicio 56\obj\Debug\Ejercicio 56.pdb
+D:\VisualStudio\fernanda\prog-y-lab-II-master\Ejercicio 56\Ejercicio 56\obj\Debug\Ejercicio 56.csprojAssemblyReference.cache
+D:\VisualStudio\fernanda\prog-y-lab-II-master\Ejercicio 56\Ejercicio 56\obj\Debug\Ejercicio_56.Form1.resources
+D:\VisualStudio\fernanda\prog-y-lab-II-master\Ejercicio 56\Ejercicio 56\obj\Debug\Ejercicio_56.Properties.Resources.resources
+D:\VisualStudio\fernanda\prog-y-lab-II-master\Ejercicio 56\Ejercicio 56\obj\Debug\Ejercicio 56.csproj.GenerateResource.cache
+D:\VisualStudio\fernanda\prog-y-lab-II-master\Ejercicio 56\Ejercicio 56\obj\Debug\Ejercicio 56.csproj.CoreCompileInputs.cache
+D:\VisualStudio\fernanda\prog-y-lab-II-master\Ejercicio 56\Ejercicio 56\obj\Debug\Ejercicio 56.exe
+D:\VisualStudio\fernanda\prog-y-lab-II-master\Ejercicio 56\Ejercicio 56\obj\Debug\Ejercicio 56.pdb
+D:\VisualStudio\fernanda\prog-y-lab-II-master\Ejercicio 56\Ejercicio 56\bin\Debug\Ejercicio 56.exe.config
+D:\VisualStudio\fernanda\prog-y-lab-II-master\Ejercicio 56\Ejercicio 56\bin\Debug\Ejercicio 56.exe
+D:\VisualStudio\fernanda\prog-y-lab-II-master\Ejercicio 56\Ejercicio 56\bin\Debug\Ejercicio 56.pdb
