@@ -48,6 +48,11 @@ namespace Ejercicio_61
                 return this.Id.ToString();
             }
         }
-
+        public override string ToString()
+        {
+            StringBuilder sb = new StringBuilder();
+            sb.AppendFormat("{0}{1},{2}", Identificacion, Apellido, Nombre);
+            return sb.ToString();
+        }
     }
 }

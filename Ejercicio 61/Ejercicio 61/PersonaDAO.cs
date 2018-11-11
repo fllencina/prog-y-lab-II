@@ -14,18 +14,17 @@ namespace Ejercicio_61
         static SqlDataReader reader;
         static PersonaDAO()
         {
-            conexion = new SqlConnection(@"Data Source=.\alpha2000;Initial Catalog=Persona;integrated Security=true");
+            conexion = new SqlConnection(@"Data Source=.\sqlexpress;Initial Catalog=Persona;integrated Security=true");
         }
 
         public static bool Guardar(Persona p)
         {
-             conexion = new SqlConnection();
              comando = new SqlCommand();
             bool retorno = false;
             try
             {
                 conexion.Open();
-                comando = new SqlCommand("INSERT INTO Persona(Nombre,Apellido) VALUES ('" + p.Nombre + "','" + p.Apellido + "')", conexion);
+                comando = new SqlCommand("INSERT INTO Campos(Nombre,Apellido) VALUES ('" + p.Nombre + "','" + p.Apellido + "')", conexion);
                 comando.ExecuteNonQuery();
                 retorno = true;
             }
@@ -48,7 +47,7 @@ namespace Ejercicio_61
             try
             {
                 conexion.Open();
-                comando = new SqlCommand("SELECT Nombre, Apellido, ID FROM Persona", conexion);
+                comando = new SqlCommand("SELECT Nombre, Apellido, ID FROM Campos", conexion);
                 reader = comando.ExecuteReader();
                 while (reader.Read())
                 {
@@ -77,7 +76,7 @@ namespace Ejercicio_61
             try
             {
                 conexion.Open();
-                comando = new SqlCommand("SELECT (Nombre, Apellido) FROM Persona WHERE ID = " + ID, conexion);
+                comando = new SqlCommand("SELECT (Nombre, Apellido) FROM Campos WHERE ID = " + ID, conexion);
                 reader = comando.ExecuteReader();
                 if (reader.Read())
                 {
@@ -105,7 +104,7 @@ namespace Ejercicio_61
             try
             {
                 conexion.Open();
-                comando = new SqlCommand("UPDATE Persona SET Nombre = '" + nombre + "',Apellido = '" + apellido + "' WHERE ID = " + ID, conexion);
+                comando = new SqlCommand("UPDATE Campos SET Nombre = '" + nombre + "',Apellido = '" + apellido + "' WHERE ID = " + ID, conexion);
                 comando.ExecuteNonQuery();
                 retorno = true;
             }
@@ -130,7 +129,7 @@ namespace Ejercicio_61
             try
             {
                 conexion.Open();
-                comando = new SqlCommand("DELETE FROM Persona WHERE ID = " + ID, conexion);
+                comando = new SqlCommand("DELETE FROM Campos WHERE ID = " + ID, conexion);
                 comando.ExecuteNonQuery();
                 retorno = true;
             }

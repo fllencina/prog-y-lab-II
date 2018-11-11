@@ -1,0 +1,10 @@
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 61\Ejercicio 61\bin\Debug\Ejercicio 61.exe.config
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 61\Ejercicio 61\bin\Debug\Ejercicio 61.exe
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 61\Ejercicio 61\bin\Debug\Ejercicio 61.pdb
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 61\Ejercicio 61\obj\Debug\Ejercicio 61.csprojAssemblyReference.cache
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 61\Ejercicio 61\obj\Debug\Ejercicio_61.Form1.resources
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 61\Ejercicio 61\obj\Debug\Ejercicio_61.Properties.Resources.resources
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 61\Ejercicio 61\obj\Debug\Ejercicio 61.csproj.GenerateResource.cache
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 61\Ejercicio 61\obj\Debug\Ejercicio 61.csproj.CoreCompileInputs.cache
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 61\Ejercicio 61\obj\Debug\Ejercicio 61.exe
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 61\Ejercicio 61\obj\Debug\Ejercicio 61.pdb
