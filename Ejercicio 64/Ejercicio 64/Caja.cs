@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Threading;
 
 namespace Ejercicio_64
 {
@@ -24,9 +25,14 @@ namespace Ejercicio_64
         }
         public void AtenderCliente()
         {
+            
             foreach(string s in filaClientes)
             {
-                Console.WriteLine(s);
+                Thread.Sleep(2000);
+                StringBuilder sb = new StringBuilder();
+                sb.AppendFormat("{0}: {1} ", Thread.CurrentThread.Name, s);
+                Console.WriteLine(sb.ToString());
+                
             }
         }
     }

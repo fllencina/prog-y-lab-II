@@ -1,0 +1,20 @@
+D:\VisualStudio\Fernanda\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+D:\VisualStudio\Fernanda\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+D:\VisualStudio\Fernanda\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+D:\VisualStudio\Fernanda\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+D:\VisualStudio\Fernanda\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+D:\VisualStudio\Fernanda\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+D:\VisualStudio\Fernanda\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+D:\VisualStudio\Fernanda\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+D:\VisualStudio\Fernanda\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+D:\VisualStudio\Fernanda\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 63\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe.config
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 63\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.exe
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 63\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 63\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csprojAssemblyReference.cache
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 63\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form1.resources
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 63\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Properties.Resources.resources
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 63\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.GenerateResource.cache
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 63\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.csproj.CoreCompileInputs.cache
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 63\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.exe
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 63\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.pdb

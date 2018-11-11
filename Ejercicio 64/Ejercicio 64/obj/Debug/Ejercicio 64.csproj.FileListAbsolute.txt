@@ -1,0 +1,7 @@
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 64\Ejercicio 64\bin\Debug\Ejercicio 64.exe.config
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 64\Ejercicio 64\bin\Debug\Ejercicio 64.exe
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 64\Ejercicio 64\bin\Debug\Ejercicio 64.pdb
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 64\Ejercicio 64\obj\Debug\Ejercicio 64.csprojAssemblyReference.cache
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 64\Ejercicio 64\obj\Debug\Ejercicio 64.csproj.CoreCompileInputs.cache
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 64\Ejercicio 64\obj\Debug\Ejercicio 64.exe
+C:\Users\Fernanda\Desktop\git hoy\prog-y-lab-II\Ejercicio 64\Ejercicio 64\obj\Debug\Ejercicio 64.pdb
