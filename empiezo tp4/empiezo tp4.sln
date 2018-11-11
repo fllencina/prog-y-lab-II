@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "empiezo tp4", "empiezo tp4\empiezo tp4.csproj", "{463CCD3D-9233-4986-970E-43F4DE9527D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorreoTP4", "CorreoTP4\CorreoTP4.csproj", "{D7D46BE4-4E4C-49F3-8308-B62F920C2595}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{463CCD3D-9233-4986-970E-43F4DE9527D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{463CCD3D-9233-4986-970E-43F4DE9527D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{463CCD3D-9233-4986-970E-43F4DE9527D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D7D46BE4-4E4C-49F3-8308-B62F920C2595}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7D46BE4-4E4C-49F3-8308-B62F920C2595}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7D46BE4-4E4C-49F3-8308-B62F920C2595}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7D46BE4-4E4C-49F3-8308-B62F920C2595}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
