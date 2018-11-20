@@ -5,13 +5,12 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
 using Excepciones;
-namespace CorreoTP4
+namespace EntidadesHechas
 {
-    public static class PaqueteDAO
+    static class PaqueteDAO
     {
-        static SqlConnection conexion;
-        static SqlCommand comando;
-        static SqlDataReader reader;
+         static SqlCommand comando;
+         static SqlConnection conexion;
 
         static PaqueteDAO()
         {
@@ -24,12 +23,12 @@ namespace CorreoTP4
             bool retorno = false;
             try
             {
-                conexion.Open();
-                comando = new SqlCommand("INSERT INTO Paquetes(Id,DireccionEntrega,TrackingId,Alumno) VALUES ('" + p.Id + "','" + p.DireccionEntrega + "','"+p.TrackingId+ "','" + "Lencina.Fernanda" + "')", conexion);
+                conexion.Open();//ver si tengo que agragar al insert el ID tambien aunque este config autoincremental
+                comando = new SqlCommand("INSERT INTO Paquetes(DireccionEntrega,TrackingId,Alumno) VALUES ('"+p.DireccionEntrega + "'," + p.TrackingID + ",'Lencina.Fernanda')", conexion);
                 comando.ExecuteNonQuery();
                 retorno = true;
             }
-            catch (TrackingIdRepetidoException ex)
+            catch (TrackingRepetidoException ex)
             {
                 throw ex;
             }
@@ -42,6 +41,5 @@ namespace CorreoTP4
             }
             return retorno;
         }
-
     }
 }

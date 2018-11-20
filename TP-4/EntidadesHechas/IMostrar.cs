@@ -4,9 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace CorreoTP4
+namespace EntidadesHechas
 {
-    public class Class1
+    public interface IMostrar<T>
     {
+         string MostrarDatos(IMostrar<T> elemento);
     }
 }

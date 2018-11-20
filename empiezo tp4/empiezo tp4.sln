@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 15 for Windows Desktop
 VisualStudioVersion = 15.0.28010.2036
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "empiezo tp4", "empiezo tp4\empiezo tp4.csproj", "{463CCD3D-9233-4986-970E-43F4DE9527D4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrmPpal", "empiezo tp4\FrmPpal.csproj", "{463CCD3D-9233-4986-970E-43F4DE9527D4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CorreoTP4", "CorreoTP4\CorreoTP4.csproj", "{D7D46BE4-4E4C-49F3-8308-B62F920C2595}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excepciones", "Excepciones\Excepciones.csproj", "{22E7EB8E-3EB5-47A2-A11A-89735C885823}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{D7D46BE4-4E4C-49F3-8308-B62F920C2595}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7D46BE4-4E4C-49F3-8308-B62F920C2595}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7D46BE4-4E4C-49F3-8308-B62F920C2595}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22E7EB8E-3EB5-47A2-A11A-89735C885823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22E7EB8E-3EB5-47A2-A11A-89735C885823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22E7EB8E-3EB5-47A2-A11A-89735C885823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22E7EB8E-3EB5-47A2-A11A-89735C885823}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
