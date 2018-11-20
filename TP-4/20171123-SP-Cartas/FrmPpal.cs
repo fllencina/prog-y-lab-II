@@ -102,11 +102,19 @@ namespace _20171123_SP_Cartas
 
         private void btnAgregar_Click(object sender, EventArgs e)
         {
-            Paquete paquete = new Paquete(txtDireccion.Text, mtxtTrackingID.Text);
-            paquete.InformaEstado+=paq_InformaEstado;
-            correo += paquete;
-            this.ActualizarEstados();
-            MessageBox.Show("Se agrego ok");
+            if (txtDireccion.Text.Length > 0 && mtxtTrackingID.Text!= "000 - 000 - 0000")
+            {
+                Paquete paquete = new Paquete(txtDireccion.Text, mtxtTrackingID.Text);
+                paquete.InformaEstado += paq_InformaEstado;
+                correo += paquete;
+                this.ActualizarEstados();
+                MessageBox.Show("Se agrego ok");
+            }
+            else
+            {
+                MessageBox.Show("Los campos ID Tracking y Direccion no pueden estar vacios");
+            }
+
         }
 
         /// <summary>
